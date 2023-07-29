@@ -1,4 +1,16 @@
 :root {
+  --Primary-Brand: #4d5ae5;
+  --Pressed-state: #404bbf;
+  --Dark: #2e2f42;
+  --Success: #31d0aa;
+  --Text: #434455;
+  --Subtle-Text: #8e8f99;
+  --Accent: #e7e9fc;
+  --Light: #f4f4fd;
+  --Modal-overlay: #2e2f42;
+  --Hero-background: #2e2f42;
+  --White-background: #ffffff;
+  --Modal-background: #fcfcfc;
 }
 
 body {
