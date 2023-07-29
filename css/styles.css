@@ -1,7 +1,19 @@
+:root {
+}
+
 .body {
-  font-family: "Roboto", "Raleway";
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   width: 1440px;
   height: 2592px;
   color: #f4f4fd;
   background-color: #fff;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.nav {
 }
