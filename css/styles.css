@@ -14,7 +14,7 @@
   --white: #fff;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   width: 1440px;
@@ -28,8 +28,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 115%; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -39,8 +39,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 115%; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
