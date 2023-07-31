@@ -1,16 +1,17 @@
 :root {
-  --Primary-Brand: #4d5ae5;
+  --iris: #4d5ae5;
   --Pressed-state: #404bbf;
-  --Dark: #2e2f42;
+  --naviblue: #2e2f42;
   --Success: #31d0aa;
-  --Text: #434455;
+  --slate: #434455;
   --Subtle-Text: #8e8f99;
-  --Accent: #e7e9fc;
-  --Light: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
   --Modal-overlay: #2e2f42;
   --Hero-background: #2e2f42;
   --White-background: #ffffff;
   --Modal-background: #fcfcfc;
+  --white: #fff;
 }
 
 .body {
@@ -20,4 +21,26 @@
   height: 2592px;
   color: #434455;
   background-color: #ffffff;
+}
+.logo {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 115%; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-studio {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 115%; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
