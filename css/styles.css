@@ -41,3 +41,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.link {
+  list-style: none;
+  text-decoration: none;
+}
