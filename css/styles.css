@@ -2,7 +2,7 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --iris: #4d5ae5;
-  --Pressed-state: #404bbf;
+  --pressed-state: #404bbf;
   --naviblue: #2e2f42;
   --Success: #31d0aa;
   --slate: #434455;
@@ -57,6 +57,44 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.link-menu-studio {
+  color: var(--naviblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style: none;
+  :hover,
+  :focus{color #404bbf}
+}
+.link-menu-portfolio {
+  color: var(--naviblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style: none;
+  :hover,
+  :focus{color #404bbf}
+}
+
+.link-menu-contacts {
+  color: var(--naviblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style: none;
+  :hover,
+  :focus{color #404bbf}
+}
+
 .link {
   text-decoration: none;
   list-style: none;
