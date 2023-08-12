@@ -1,6 +1,6 @@
 :root {
   --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway";
+  --secondary-font: "Raleway", sans-serif;
   --iris: #4d5ae5;
   --Pressed-state: #404bbf;
   --naviblue: #2e2f42;
@@ -63,6 +63,11 @@ body {
   list-style: none;
   text-decoration: none;
 }
-
+.footer {
+  background-color: var(--naviblue);
+}
 .footer-text {
+  color: var(--cloud);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
