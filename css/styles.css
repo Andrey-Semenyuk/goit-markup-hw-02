@@ -71,3 +71,7 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
+.portfolio-body {
+  font-family: var(--primary-font);
+  color: var(--slate);
+}
