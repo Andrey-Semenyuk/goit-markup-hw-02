@@ -46,6 +46,14 @@ body {
 }
 
 .logo-studio-light {
+  color: var(--cloud, #f4f4fd);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .link {
   text-decoration: none;
@@ -54,4 +62,7 @@ body {
 .list {
   list-style: none;
   text-decoration: none;
+}
+
+.footer-text {
 }
