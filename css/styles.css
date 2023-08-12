@@ -20,6 +20,8 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
+.header-index {
+}
 .nav {
 }
 .logo-studio {
@@ -46,7 +48,7 @@ body {
 }
 
 .logo-studio-light {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
   font-family: var(--secondary-font);
   font-size: 18px;
   font-style: normal;
@@ -63,6 +65,21 @@ body {
   list-style: none;
   text-decoration: none;
 }
+/* main */
+
+.dark-bg {
+}
+.effective {
+  color: var(--white);
+  text-align: center;
+
+  /* Header 1 */
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
 .footer {
   background-color: var(--naviblue);
 }
@@ -70,8 +87,4 @@ body {
   color: var(--cloud);
   letter-spacing: 0.02em;
   line-height: 1.5;
-}
-.portfolio-body {
-  font-family: var(--primary-font);
-  color: var(--slate);
 }
