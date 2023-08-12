@@ -23,7 +23,7 @@ body {
 .nav {
 }
 .logo-studio {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   font-family: var(--secondary-font);
   font-size: 18px;
   font-style: normal;
@@ -34,19 +34,24 @@ body {
   text-decoration: none;
 }
 .logo-studio-dark {
-  color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
+  color: var(--naviblue);
+  font-family: var(--secondary-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.logo-studio-light {
+}
 .link {
   text-decoration: none;
+  list-style: none;
 }
 .list {
   list-style: none;
+  text-decoration: none;
 }
