@@ -1,4 +1,6 @@
 :root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway";
   --iris: #4d5ae5;
   --Pressed-state: #404bbf;
   --naviblue: #2e2f42;
@@ -9,19 +11,20 @@
   --cloud: #f4f4fd;
   --Modal-overlay: #2e2f42;
   --Hero-background: #2e2f42;
-  --White-background: #ffffff;
   --Modal-background: #fcfcfc;
   --white: #fff;
 }
 
 body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: var(--primary-font);
+  color: var(--slate);
+  background-color: var(--white);
 }
-.logo {
+.nav {
+}
+.logo-studio {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -30,18 +33,20 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo-studio {
+.logo-studio-dark {
   color: var(--navyblue, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 .link {
-  list-style: none;
   text-decoration: none;
+}
+.list {
+  list-style: none;
 }
