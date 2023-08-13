@@ -89,30 +89,24 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  list-style: none;
   :hover,
   :focus{color #404bbf}
 }
 .list-address{
   font-style: normal;
-  text-decoration: none;
-  list-style: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-
 }
-
+.list {
+  list-style: none;text-decoration: none;
+}
 .link {
   text-decoration: none;
   list-style: none;
 }
-.list {
-  list-style: none;
-  text-decoration: none;
-}
+
 /* main */
 
 .dark-bg {
