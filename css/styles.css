@@ -166,6 +166,7 @@ body {
   background-color: var(--cloud);
 }
 .subtitle-section-team {
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -179,6 +180,12 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--hero-background);
+}
+.desc-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 /* footer */
 .footer {
