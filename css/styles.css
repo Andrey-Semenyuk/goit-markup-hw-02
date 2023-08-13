@@ -136,7 +136,7 @@ body {
   color: var(--white);
   :hover,
   :focus {
-    background-color: var(--hero-background);
+    background-color: #404bbf;
   }
   cursor: pointer;
 }
