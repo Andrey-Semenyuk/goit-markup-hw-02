@@ -10,7 +10,7 @@
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
   --Modal-overlay: #2e2f42;
-  --Hero-background: #2e2f42;
+  --hero-background: #2e2f42;
   --Modal-background: #fcfcfc;
   --white: #ffffff;
 }
@@ -106,17 +106,30 @@ body {
 /* main */
 
 .dark-bg {
+  background-color: var(--hero-background);
 }
 .effective {
   color: var(--white);
   text-align: center;
+  line-height: 1.07;
 
   /* Header 1 */
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.btm-effective{
+background-color: var(--iris);
+font-family: var(--primary-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white);
+:hover,:focus{background-color: #404BBF}
+cursor: pointer;
 }
 .footer {
   background-color: var(--naviblue);
