@@ -94,6 +94,16 @@ body {
   :hover,
   :focus{color #404bbf}
 }
+.list-address{
+  font-style: normal;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+
+}
 
 .link {
   text-decoration: none;
@@ -112,8 +122,6 @@ body {
   color: var(--white);
   text-align: center;
   line-height: 1.07;
-
-  /* Header 1 */
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -128,7 +136,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--white);
-:hover,:focus{background-color: #404BBF}
+:hover,:focus{background-color: var(--hero-background)}
 cursor: pointer;
 }
 .footer {
