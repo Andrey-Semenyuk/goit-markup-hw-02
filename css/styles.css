@@ -20,6 +20,7 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
+/* header */
 .header-index {
 }
 .nav {
@@ -67,7 +68,7 @@ body {
   text-decoration: none;
   list-style: none;
   :hover,
-  :focus{color #404bbf}
+  :focus {color #404bbf}
 }
 .link-menu-portfolio {
   color: var(--naviblue);
@@ -79,7 +80,7 @@ body {
   text-decoration: none;
   list-style: none;
   :hover,
-  :focus{color #404bbf}
+  :focus {color #404bbf}
 }
 
 .link-menu-contacts {
@@ -90,7 +91,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   :hover,
-  :focus{color #404bbf}
+  :focus {color #404bbf}
 }
 .list-address{
   font-style: normal;
@@ -130,9 +131,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--white);
-:hover,:focus{background-color: var(--hero-background)}
+:hover,:focus {background-color: var(--hero-background)}
 cursor: pointer;
 }
+/* footer */
 .footer {
   background-color: var(--naviblue);
 }
