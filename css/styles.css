@@ -134,6 +134,24 @@ color: var(--white);
 :hover,:focus {background-color: var(--hero-background)}
 cursor: pointer;
 }
+/* section 2 */
+.subtitle{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-background);
+
+}
+.desc{
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* section 3 */
+
+/* section 4 */
+
 /* footer */
 .footer {
   background-color: var(--naviblue);
