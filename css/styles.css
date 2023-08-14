@@ -188,7 +188,7 @@ body {
   color: var(--hero-background);
 }
 .list-team-img {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .desc-team {
