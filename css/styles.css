@@ -196,3 +196,11 @@ body {
 }
 
 /* portfolio */
+/* btm-portfolio */
+.btm-portfolio {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+}
