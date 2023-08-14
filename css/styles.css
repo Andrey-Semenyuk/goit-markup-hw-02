@@ -54,6 +54,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.address-list {
+  font-style: normal;
+}
 .link-menu-studio {
   font-size: 16px;
   font-style: normal;
