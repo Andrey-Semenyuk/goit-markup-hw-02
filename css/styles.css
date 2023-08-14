@@ -133,14 +133,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);}
-  .btm-effective :hover,
-  :focus {
-    background-color: var(--pressed-state);
-    cursor: pointer;
-  }
-  
+  color: var(--white);
 }
+.btm-effective :hover,
+:focus {
+  background-color: var(--pressed-state);
+  cursor: pointer;
+}
+
 /* section 2 */
 .subtitle {
   font-weight: 500;
