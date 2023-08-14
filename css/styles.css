@@ -186,6 +186,19 @@ body {
   text-transform: capitalize;
   color: var(--hero-background);
 }
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-background);
+}
+.desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
 
 .list-team-img {
   background-color: var(--white);
