@@ -208,7 +208,9 @@ body {
 }
 .btm-portfolio:hover,
 .btm-portfolio:focus {
+  color: var(--white);
   background-color: var(--pressed-state);
+  cursor: pointer;
 }
 .subtitle-section-port {
   font-weight: 500;
