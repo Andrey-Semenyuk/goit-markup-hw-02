@@ -136,8 +136,8 @@ body {
   color: var(--white);
   cursor: pointer;
 }
-.btm-effective :hover,
-:focus {
+.btm-effective:hover,
+.btm-effective:focus {
   background-color: var(--pressed-state);
 }
 
