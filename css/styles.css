@@ -99,7 +99,7 @@ body {
 .link-menu-contacts .link:focus {
   color: var(--pressed-state);
 }
-.list .list-address {
+.link-address .link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
