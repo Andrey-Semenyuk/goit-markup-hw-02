@@ -134,11 +134,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
+  cursor: pointer;
 }
 .btm-effective :hover,
 :focus {
   background-color: var(--pressed-state);
-  cursor: pointer;
 }
 
 /* section 2 */
