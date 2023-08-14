@@ -54,10 +54,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .address-list {
   font-style: normal;
 }
-.link-menu-studio {
+.link-menu-studio .link {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -72,7 +73,7 @@ body {
   color: var(--pressed-state);
 }
 
-.link-menu-portfolio {
+.link-menu-portfolio .link {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -87,7 +88,7 @@ body {
   color: var(--pressed-state);
 }
 
-.link-menu-contacts {
+.link-menu-contacts .link {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
