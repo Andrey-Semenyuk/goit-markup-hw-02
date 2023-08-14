@@ -63,11 +63,12 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
-  :hover,
-  :focus {
-    color: var(--pressed-state);
-  }
 }
+.link-menu-studio:hover,
+.link-menu-studio:focus {
+  color: var(--pressed-state);
+}
+
 .link-menu-portfolio {
   color: var(--naviblue);
   font-size: 16px;
@@ -77,10 +78,10 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
-  :hover,
-  :focus {
-    color: var(--pressed-state);
-  }
+}
+.link-menu-portfolio:hover,
+.link-menu-portfolio:focus {
+  color: var(--pressed-state);
 }
 
 .link-menu-contacts {
@@ -90,11 +91,12 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  :hover,
-  :focus {
-    color: var(--pressed-state);
-  }
 }
+.link-menu-contacts:hover,
+.link-menu-contacts:focus {
+  color: var(--pressed-state);
+}
+
 .list-address {
   font-style: normal;
   font-size: 16px;
