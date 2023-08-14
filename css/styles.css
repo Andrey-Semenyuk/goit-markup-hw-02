@@ -4,14 +4,14 @@
   --iris: #4d5ae5;
   --pressed-state: #404bbf;
   --naviblue: #2e2f42;
-  --Success: #31d0aa;
+  --success: #31d0aa;
   --slate: #434455;
-  --Subtle-Text: #8e8f99;
+  --subtle-Text: #8e8f99;
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
-  --Modal-overlay: #2e2f42;
+  --modal-overlay: #2e2f42;
   --hero-background: #2e2f42;
-  --Modal-background: #fcfcfc;
+  --modal-background: #fcfcfc;
   --white: #ffffff;
 }
 
@@ -65,7 +65,7 @@ body {
   list-style: none;
   :hover,
   :focus {
-    color: #404bbf;
+    color: var(--pressed-state);
   }
 }
 .link-menu-portfolio {
@@ -133,12 +133,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
-  :hover,
+  color: var(--white);}
+  .btm-effective :hover,
   :focus {
-    background-color: #404bbf;
+    background-color: var(--pressed-state);
+    cursor: pointer;
   }
-  cursor: pointer;
+  
 }
 /* section 2 */
 .subtitle {
