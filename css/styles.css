@@ -58,7 +58,7 @@ body {
 .address-list {
   font-style: normal;
 }
-.link-menu-studio {
+.menu-nav {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -67,8 +67,8 @@ body {
   color: var(--naviblue);
   text-decoration: none;
 }
-.link-menu-studio:hover,
-.link-menu-studio:focus {
+.menu-nav:hover,
+.menu-nav:focus {
   color: var(--pressed-state);
 }
 
@@ -133,7 +133,7 @@ body {
 }
 .btm-effective {
   background-color: var(--iris);
-  font-family: var(--primary-font);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
