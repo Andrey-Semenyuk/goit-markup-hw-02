@@ -58,37 +58,35 @@ body {
 .address-list {
   font-style: normal;
 }
-.link-menu-studio .link {
+.link-menu-studio {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--naviblue);
-
-  list-style: none;
+  text-decoration: none;
 }
-.link-menu-studio .link:hover,
-.link-menu-studio .link:focus {
+.link-menu-studio:hover,
+.link-menu-studio:focus {
   color: var(--pressed-state);
 }
 
-.link-menu-portfolio .link {
+.link-menu-portfolio {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--naviblue);
-
-  list-style: none;
+  text-decoration: none;
 }
-.link-menu-portfolio .link:hover,
-.link-menu-portfolio .link:focus {
+.link-menu-portfolio:hover,
+.link-menu-portfolio:focus {
   color: var(--pressed-state);
 }
 
-.link-menu-contacts .link {
+.link-menu-contacts {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -96,8 +94,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--naviblue);
 }
-.link-menu-contacts .link:hover,
-.link-menu-contacts .link:focus {
+.link-menu-contacts:hover,
+.link-menu-contacts:focus {
   color: var(--pressed-state);
 }
 .link-address .link {
@@ -113,11 +111,9 @@ body {
 }
 .list {
   list-style: none;
-  text-decoration: none;
 }
 .link {
   text-decoration: none;
-  list-style: none;
 }
 
 /* main */
@@ -130,7 +126,7 @@ body {
   text-align: center;
   line-height: 1.07;
   font-size: 56px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
