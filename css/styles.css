@@ -167,7 +167,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  color: var(--hero-background);
+  letter-spacing: 0.02em
+  color: var(--naviblue);
 }
 /* section 4 */
 .section-team {
