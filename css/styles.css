@@ -200,6 +200,13 @@ body {
 .list-team-img {
   background-color: var(--white);
 }
+.subtitle-section-port {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-background);
+}
 
 /* footer */
 .footer {
@@ -225,11 +232,4 @@ body {
   color: var(--white);
   background-color: var(--pressed-state);
   cursor: pointer;
-}
-.subtitle-section-port {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--hero-background);
 }
